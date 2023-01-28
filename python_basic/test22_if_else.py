@@ -42,8 +42,18 @@ def test4():
 	sg.Popup(f'那全部有{b}顆紅豆')
 
 def test5():
-	print('Enter your name:')
-	x = input()
-	print('Hello, ' + x)
-test5e()
+	fcn = int(myinput('請問你考幾分'))
+	if (fcn >95):
+		sg.Popup('有禮物了')
+	else:
+		sg.Popup('沒有禮物了')
+
+def test6():
+	km = int(myinput('請問你跑幾公里'))
+	if (km >2):
+		sg.Popup('恭喜你，你得獎了')
+	else:
+		sg.Popup('再接再厲')
+
+test6()
 

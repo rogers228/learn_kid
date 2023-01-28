@@ -35,5 +35,23 @@ def test4():
 	else:
 		print('沒遲到')
 
+#------------------
+def test5():
+	rank = 7
+	if (rank <=2):
+		print('可以去台北玩了!')
+	else:
+		print('不能去了')
 
-test4() #執行method 自己改
+def test6():
+	fcn = 10
+	if (fcn >95):
+	   print('有禮物了')
+	else:
+		print('沒有禮物了')
+
+
+
+
+
+test6() #執行method 自己改
