@@ -1,9 +1,16 @@
 # 函數function  func  f
-# function name
-# parameter 參數
+# function name   工作範圍
+# parameter 參數  範圍
+# return 回答
 def foot4(co): #四隻腳的動物
 	foot = 4*co #計算
 	return foot #回答
+
+
+# function(x)   f(x)=x*4
+# function(x,y)  f(x, y)=x*y  f(5,4)
+# area(5, 4)
+
 
 def foot2(co):
 	foot = 2*co
